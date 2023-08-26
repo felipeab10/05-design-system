@@ -1,4 +1,4 @@
-name: Deploy docss
+name: Deploy Docs Ignite
 
 on:
   push:
