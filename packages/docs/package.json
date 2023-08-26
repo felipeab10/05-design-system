@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
     "build": "storybook build"
   },
   "keywords": [],
@@ -19,6 +20,7 @@
     "@storybook/blocks": "^7.2.0",
     "@storybook/react": "^7.2.0",
     "@storybook/react-vite": "^7.2.0",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.2.0",
     "@vitejs/plugin-react": "^4.0.4",
     "prop-types": "^15.8.1",
@@ -28,9 +30,11 @@
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
-    "@ignite-ui/ts-config": "*",
     "@ignite-ui/tokens": "*",
+    "@ignite-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^7.3.2",
     "@storybook/addons": "^7.2.0",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
